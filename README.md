@@ -1,2 +1,2 @@
-# e-commerce_django
-This is a Django ecommerce project for learning.
+# crm_django
+This is a Django crm project for learning.
