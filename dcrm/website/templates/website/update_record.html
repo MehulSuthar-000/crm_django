@@ -5,14 +5,14 @@
 <div class="col-md-6 offset-md-3">
     <h1>Login</h1>
     <br />
-    <form action="{% url 'add-record' %}" method="POST">
+    <form method="POST">
         {% csrf_token %}
 
         {{form.as_p}}
         
-        <br />
-        <button type="submit" class="btn btn-secondary btn-sm">Add Record</button><br>
+    <br />
         <a href="{% url "home" %}" class="btn btn-outline-secondary btn-sm">Go Back</a>
+        <button type="submit" class="btn btn-outline-primary btn-sm">Update Record</button>
     </form>
 </div>
 {% endblock content %}
